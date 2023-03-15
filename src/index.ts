@@ -41,13 +41,14 @@ export function createI18n(i18nState: I18nState) {
       },
     })
 
-    Object.defineProperty(V.prototype, '$setI18n', {
-      get: () => setI18n,
-    })
-
-    Object.defineProperty(V.prototype, '$t', {
-      get: function () {
-        return this._t
+    Object.defineProperties(V.prototype, {
+      $setI18n: {
+        get: () => setI18n,
+      },
+      $t: {
+        get: function () {
+          return this._t
+        },
       },
     })
   }
