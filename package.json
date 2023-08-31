@@ -1,7 +1,25 @@
 {
   "name": "@i18n-pro/vue2",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.0-alpha.1",
+  "description": "Lightweight, simple, flexible, automatic translation internationalization tool for Vue 2.x（适用于 Vue 2.x 的轻量、简单、灵活、自动翻译的国际化工具）",
+  "keywords": [
+    "vue",
+    "i18n",
+    "vue-i18n",
+    "vue-intl",
+    "intl",
+    "i18n",
+    "internationalization",
+    "locale",
+    "l10n",
+    "localization",
+    "translate",
+    "translation",
+    "国际化",
+    "多语言",
+    "自动翻译",
+    "automatic translation"
+  ],
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
@@ -34,7 +52,6 @@
     "tslib": "^2.5.0",
     "typescript": "4.8.4",
     "vitest": "^0.28.5",
-    "vue": "2",
     "vue-template-compiler": "2"
   },
   "peerDependencies": {
@@ -42,9 +59,14 @@
     "vue": ">=2"
   },
   "dependencies": {
-    "i18n-pro": "1.3.2"
+    "i18n-pro": "2.0.0",
+    "vue": "2"
   },
   "lint-staged": {
     "*.{json,ts,tsx,js,vue}": "eslint --fix -f table"
+  },
+  "homepage": "https://github.com/i18n-pro/vue2",
+  "bugs": {
+    "url": "https://github.com/i18n-pro/vue2/issues"
   }
 }
