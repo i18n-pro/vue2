@@ -1,4 +1,5 @@
 import { Translate, I18nState, initI18n, SetI18n } from 'i18n-pro'
+export { Langs, I18nState, SetI18n, Translate } from 'i18n-pro'
 import type { VueConstructor } from 'vue'
 import type Vue from 'vue'
 
