@@ -51,6 +51,7 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-formatter-table": "^7.32.1",
     "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",
     "jsdom": "^21.1.0",
     "lint-staged": "^13.1.2",
@@ -74,7 +75,7 @@
     "vue": "2"
   },
   "lint-staged": {
-    "*.{json,ts,tsx,js,vue}": "eslint --fix -f table"
+    "*.{vue}": "eslint --fix -f table"
   },
   "homepage": "https://github.com/i18n-pro/vue2",
   "bugs": {
