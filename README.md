@@ -11,7 +11,7 @@ English | [简体中文](https://github.com/i18n-pro/vue2/blob/vdoc/README_zh-CN
 [![github-stars](https://img.shields.io/github/stars/i18n-pro/vue2?style=social "github-stars")](https://github.com/i18n-pro/vue2/stargazers "github-stars")
 [![last-commit](https://img.shields.io/github/last-commit/i18n-pro/vue2/main "last-commit")](https://github.com/i18n-pro/vue2/commits/main "last-commit")
 [![github-issues](https://img.shields.io/github/issues-raw/i18n-pro/vue2 "github-issues")](https://github.com/i18n-pro/vue2/issues "github-issues")
-[![codecov](https://codecov.io/gh/i18n-pro/vue2/branch/main/graph/badge.svg?token=X2447V6A9H "codecov")](https://codecov.io/gh/i18n-pro/vue2 "codecov")
+[![codecov](https://codecov.io/gh/i18n-pro/vue2/branch/main/graph/badge.svg?token=B9R4W0F1XI "codecov")](https://codecov.io/gh/i18n-pro/vue2 "codecov")
 
 ![demo](https://s3.bmp.ovh/imgs/2023/09/04/12f2e6bea736d1a5.gif)
 
