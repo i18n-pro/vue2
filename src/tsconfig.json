@@ -13,11 +13,9 @@
     "outDir": "dist",
     "resolveJsonModule": true,
     "declaration": true,
-    "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "jsxImportSource": "jsx-to-md"
+    "esModuleInterop": true
   },
   "include": [
-    "docs"
+    "./index.ts"
   ]
 }
