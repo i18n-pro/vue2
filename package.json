@@ -1,6 +1,6 @@
 {
   "name": "@i18n-pro/vue2",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.3",
   "description": "Lightweight, simple, flexible, automatic translation internationalization tool for Vue 2.x（适用于 Vue 2.x 的轻量、简单、灵活、自动翻译的国际化工具）",
   "keywords": [
     "vue",
