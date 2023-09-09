@@ -7,8 +7,8 @@ export default function Requirement() {
       <BlockQuote>
         {t(
           '当前库仅适用于{0}, 需要支持{1}的请点击{2}查看',
-          ' `Vue 2.0` ',
-          ' `Vue 3.0` ',
+          ' `Vue 2` ',
+          ' `Vue 3` ',
           ` ${render(
             <Link href="https://github.com/i18n-pro/vue">i18n-pro/vue</Link>,
           )} `,

@@ -1,5 +1,5 @@
 <div align="center">
-  <p style="font-size: 18px;">Lightweight, simple, flexible, automatic translation internationalization tool for Vue 2.x</p>
+  <p style="font-size: 18px;">Lightweight, simple, flexible, automatic translation internationalization tool for Vue 2</p>
 
 English | [简体中文](https://github.com/i18n-pro/vue2/blob/vdoc/README_zh-CN.md)
 
@@ -33,7 +33,7 @@ English | [简体中文](https://github.com/i18n-pro/vue2/blob/vdoc/README_zh-CN
 To make internationalization easy and enjoyable 😄💪🏻
 # Requirement
 
->The current library is only applicable to  `Vue 2.0` . If you need to support  `Vue 3.0` , please click  [i18n-pro/vue](https://github.com/i18n-pro/vue)  to view
+>The current library is only applicable to  `Vue 2` . If you need to support  `Vue 3` , please click  [i18n-pro/vue](https://github.com/i18n-pro/vue)  to view
 * vue >= **2.0.0** < **3.0.0**
 * i18n-pro >= **2.0.0**
 

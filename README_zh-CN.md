@@ -1,5 +1,5 @@
 <div align="center">
-  <p style="font-size: 18px;">适用于 Vue 2.x 的轻量、简单、灵活、自动翻译的国际化工具</p>
+  <p style="font-size: 18px;">适用于 Vue 2 的轻量、简单、灵活、自动翻译的国际化工具</p>
 
 [English](https://github.com/i18n-pro/vue2/tree/vdoc#readme) | 简体中文
 
@@ -33,7 +33,7 @@
 为了让接入国际化成为轻松且愉快的事😄💪🏻
 # 要求
 
->当前库仅适用于 `Vue 2.0` , 需要支持 `Vue 3.0` 的请点击 [i18n-pro/vue](https://github.com/i18n-pro/vue) 查看
+>当前库仅适用于 `Vue 2` , 需要支持 `Vue 3` 的请点击 [i18n-pro/vue](https://github.com/i18n-pro/vue) 查看
 * vue >= **2.0.0** < **3.0.0**
 * i18n-pro >= **2.0.0**
 
