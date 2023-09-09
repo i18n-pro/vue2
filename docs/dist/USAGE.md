@@ -142,4 +142,4 @@ You can switch languages through  `$setI18n`
 
 
 ## 8. Demo
-Real code examples can refer to  [Live Demo](https://github.com/i18n-pro/vue2/tree/vdoc#live-demo)  in the  `README`  document
+Real code examples can refer to  [Live Demo](https://github.com/i18n-pro/vue2/tree/v1.0.0#live-demo)  in the  `README`  document

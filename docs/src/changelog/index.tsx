@@ -6,7 +6,7 @@ function V_1_0_0() {
   return (
     <Template
       version="1.0.0"
-      date="2023-09-xx"
+      date="2023-09-09"
       api={{
         added: ['U', t('新增{0}基础实现', ' `createI18n` ')],
       }}
