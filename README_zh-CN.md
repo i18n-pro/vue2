@@ -59,7 +59,7 @@
 
 
 # 原理
-该库是基于 [i18n-pro](https://github.com/i18n-pro/core "i18n-pro") 结合 `Vue` 的 `实例属性、响应式机制和插件机制` 来实现的
+该库是基于 [i18n-pro](https://github.com/i18n-pro/core "i18n-pro") 结合 `Vue` 的 `原型属性、响应式机制和插件机制` 来实现的
 
 主要由 `1` 部分构成
 * createI18n

@@ -59,7 +59,7 @@ To make internationalization easy and enjoyable 😄💪🏻
 
 
 # Principle
-This library is implemented based on  [i18n-pro](https://github.com/i18n-pro/core "i18n-pro")  combined with  `Vue` 's  `Instance Properties, Reactivity System and Plugin System` 
+This library is implemented based on  [i18n-pro](https://github.com/i18n-pro/core "i18n-pro")  combined with  `Vue` 's  `Prototype Properties, Reactivity System and Plugin System` 
 
 Mainly composed of  `1`  parts
 * createI18n
@@ -114,7 +114,7 @@ new Vue({
    * [Command Line](https://github.com/i18n-pro/core/blob/v2.0.0/docs/dist/COMMAND_LINE.md)
    * [Matching Rules](https://github.com/i18n-pro/core/blob/v2.0.0/docs/dist/MATCH_RULE.md)
    * [Q&A](https://github.com/i18n-pro/core/blob/v2.0.0/docs/dist/Q&A.md)
-   * [Translation log](https://github.com/i18n-pro/core/blob/v2.0.0/docs/dist/OUTPUT_LOG.md)
+   * [Translation Log](https://github.com/i18n-pro/core/blob/v2.0.0/docs/dist/OUTPUT_LOG.md)
 
 
 # License
