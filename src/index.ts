@@ -11,39 +11,37 @@ interface VueExt extends Vue {
 const installNamespace: string[] = []
 
 export function createI18n(props: I18nState & { with$?: boolean }) {
-  const { with$ = true, ...i18nState } = props
-  const i18n = initI18n(i18nState)
-  const namespace = i18nState.namespace
-  const prefix = with$ ? '$' : ''
-
-  let instances: VueExt[] = []
-
-  const setI18n: SetI18n = (...args) => {
-    const newState = i18n.setI18n(...args)
-    instances.forEach((instance) => {
-      instance._t = i18n.t.bind(null)
-      instance._i18nState = newState
-    })
-
-    return newState
-  }
-
   return function install(V: VueConstructor) {
+    const namespace = props.namespace
+
     if (installNamespace.includes(namespace)) return
     installNamespace.push(namespace)
 
+    const { with$ = true, ...i18nState } = props
+    const { t, setI18n: _setI18n } = initI18n(i18nState)
+    const prefix = with$ ? '$' : ''
+
+    let instances: VueExt[] = []
+
+    const setI18n: SetI18n = (...args) => {
+      const newState = _setI18n(...args)
+      instances.forEach((instance) => {
+        instance._t = t.bind(null)
+        instance._i18nState = newState
+      })
+
+      return newState
+    }
+
     V.mixin({
       beforeCreate() {
-        const self = this as VueExt
-        instances.push(self)
+        instances.push(this as VueExt)
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        ;(V.util as any)?.defineReactive(self, '_t', i18n.t)
-        ;(V.util as any)?.defineReactive(self, '_i18nState', i18nState)
+        ;(V.util as any)?.defineReactive(this, '_t', t)
+        ;(V.util as any)?.defineReactive(this, '_i18nState', i18nState)
       },
       destroyed() {
-        const self = this as VueExt
-
-        instances = instances.filter((item) => item != self)
+        instances = instances.filter((item) => item != this)
       },
     })
 
