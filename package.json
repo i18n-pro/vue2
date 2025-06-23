@@ -1,6 +1,6 @@
 {
   "name": "@i18n-pro/vue2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, simple, flexible, automatic translation internationalization tool for Vue 2（适用于 Vue 2 的轻量、简单、灵活、自动翻译的国际化工具）",
   "keywords": [
     "vue",
@@ -33,7 +33,7 @@
     "build": "rimraf dist/src && rollup -c",
     "publish": "npm run build && npm publish --access=public --registry https://registry.npmjs.org",
     "docs": "jtm run",
-    "docs-translate": "i18n t -P docs/src"
+    "docs-i18n": "i18n t -P docs/src"
   },
   "author": "Eyelly Wu",
   "license": "MIT",
@@ -69,7 +69,7 @@
     "vue-template-compiler": "2"
   },
   "peerDependencies": {
-    "i18n-pro": ">=2.0.0",
+    "i18n-pro": ">=2.0.0 <3.0.0",
     "vue": ">=2.0.0 <3.0.0"
   },
   "dependencies": {

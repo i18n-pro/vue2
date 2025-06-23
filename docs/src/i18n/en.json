@@ -61,5 +61,6 @@
   "用{0}包裹{1}": "Wrap {1} with {0}",
   "初始化国际化状态并返回其插件函数": "Initialize internationalization state and return its plugin function",
   "当前库仅适用于{0}, 需要支持{1}的请点击{2}查看": "The current library is only applicable to {0}. If you need to support {1}, please click {2} to view",
-  "原型属性、响应式机制和插件机制": "Prototype Properties, Reactivity System and Plugin System"
+  "原型属性、响应式机制和插件机制": "Prototype Properties, Reactivity System and Plugin System",
+  "限制{0}的版本": "Limit versions of {0}"
 }
