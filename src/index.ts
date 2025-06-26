@@ -23,10 +23,10 @@ export function createI18n(props: I18nState & { with$?: boolean }) {
 
     let instances: VueExt[] = []
 
-    const setI18n: SetI18n = (...args) => {
-      const newState = _setI18n(...args)
+    const setI18n: SetI18n = async (...args) => {
+      const newState = await _setI18n(...args)
       instances.forEach((instance) => {
-        instance._t = t.bind(null)
+        instance._t = t.withLocale()
         instance._i18nState = newState
       })
 
