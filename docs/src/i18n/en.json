@@ -56,11 +56,12 @@
   "默认为 true，只能通过{0}来访问属性；若配置为 false，则可以直接通过{1}来访问属性": "The default is TRUE, you can only access the properties through {0}; if configured to false, you can directly access the properties through {1}",
   "新增{0}基础实现": "Add {0} base implementation",
   "该库是基于{0}结合{1}的{2}来实现的": "This library is implemented based on {0} combined with {1}'s {2}",
-  "适用于 {0} 的轻量、简单、灵活、自动翻译的国际化工具": "Lightweight, simple, flexible, automatic translation internationalization tool for {0}",
   "注册插件": "Register Plugin",
   "用{0}包裹{1}": "Wrap {1} with {0}",
   "初始化国际化状态并返回其插件函数": "Initialize internationalization state and return its plugin function",
   "当前库仅适用于{0}, 需要支持{1}的请点击{2}查看": "The current library is only applicable to {0}. If you need to support {1}, please click {2} to view",
   "原型属性、响应式机制和插件机制": "Prototype Properties, Reactivity System and Plugin System",
-  "限制{0}的版本": "Limit versions of {0}"
+  "限制{0}的版本": "Limit versions of {0}",
+  "开箱即用的轻量级 Vue 国际化自动翻译解决方案": "An out-of-the-box, lightweight i18n auto-translation solution for Vue",
+  "适配{0}": "Adapt {0}"
 }

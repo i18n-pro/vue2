@@ -15,7 +15,11 @@ export default function Requirement() {
         )}
       </BlockQuote>
       <List
-        items={['U', 'vue >= **2.0.0** < **3.0.0**', 'i18n-pro >= **2.0.0**']}
+        items={[
+          'U',
+          'vue >= **2.0.0** < **3.0.0**',
+          'i18n-pro >= **3.0.0** < **4.0.0**',
+        ]}
       />
     </>
   )
