@@ -7,7 +7,7 @@
     <button id="enBtn" @click="currentSetI18n({ locale: 'en' })">
       English
     </button>
-    <button id="unknownBtn" @click="currentSetI18n({ locale: undefined })">
+    <button id="unknownBtn" @click="currentSetI18n({ locale: 'unknown' })">
       Unknown
     </button>
     <button id="jpBtn" @click="currentSetI18n({
@@ -15,6 +15,7 @@
       langs: {
         jp: {
           你好世界: 'こんにちは、世界',
+          'custom-key': 'こんにちは、世界',
         },
       },
     })">

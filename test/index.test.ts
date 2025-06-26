@@ -2,6 +2,7 @@ import { render, fireEvent } from '@testing-library/vue'
 import '@testing-library/jest-dom'
 import Component from './App.vue'
 import { createI18n } from '../src/index'
+import { it, expect } from 'vitest'
 
 it.each([true, false])('with$ = %s : full test', async (with$) => {
   const { container } = render(
@@ -17,6 +18,7 @@ it.each([true, false])('with$ = %s : full test', async (with$) => {
         langs: {
           en: {
             你好世界: 'Hello World',
+            'custom-key': 'Hello World',
           },
         },
         with$,
@@ -37,6 +39,9 @@ it.each([true, false])('with$ = %s : full test', async (with$) => {
   )
 
   const textWrapper = container.querySelector('#text') as HTMLDivElement
+  const customKeyTextWrapper = container.querySelector(
+    '#customKeyText',
+  ) as HTMLDivElement
 
   const zhBtn = container.querySelector('#zhBtn') as Element
   const enBtn = container.querySelector('#enBtn') as Element
@@ -45,25 +50,31 @@ it.each([true, false])('with$ = %s : full test', async (with$) => {
   const localeDiv = container.querySelector('#locale') as Element
 
   expect(textWrapper).toHaveTextContent('你好世界')
+  expect(customKeyTextWrapper).toHaveTextContent('你好世界')
   expect(localeDiv).toHaveTextContent('')
 
   await fireEvent.click(enBtn)
   expect(textWrapper).toHaveTextContent('Hello World')
+  expect(customKeyTextWrapper).toHaveTextContent('Hello World')
   expect(localeDiv).toHaveTextContent('en')
 
   await fireEvent.click(zhBtn)
   expect(textWrapper).toHaveTextContent('你好世界')
+  expect(customKeyTextWrapper).toHaveTextContent('你好世界')
   expect(localeDiv).toHaveTextContent('zh')
 
   await fireEvent.click(enBtn)
   expect(textWrapper).toHaveTextContent('Hello World')
+  expect(customKeyTextWrapper).toHaveTextContent('Hello World')
   expect(localeDiv).toHaveTextContent('en')
 
   await fireEvent.click(unknownBtn)
   expect(textWrapper).toHaveTextContent('你好世界')
-  expect(localeDiv).toHaveTextContent('')
+  expect(customKeyTextWrapper).toHaveTextContent('你好世界')
+  expect(localeDiv).toHaveTextContent('unknown')
 
   await fireEvent.click(jpBtn)
   expect(textWrapper).toHaveTextContent('こんにちは、世界')
+  expect(customKeyTextWrapper).toHaveTextContent('こんにちは、世界')
   expect(localeDiv).toHaveTextContent('jp')
 })
