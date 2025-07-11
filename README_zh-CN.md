@@ -13,7 +13,7 @@
 [![github-issues](https://img.shields.io/github/issues-raw/i18n-pro/vue2 "github-issues")](https://github.com/i18n-pro/vue2/issues "github-issues")
 [![codecov](https://codecov.io/gh/i18n-pro/vue2/branch/main/graph/badge.svg?token=B9R4W0F1XI "codecov")](https://codecov.io/gh/i18n-pro/vue2 "codecov")
 
-![demo](https://s3.bmp.ovh/imgs/2023/09/04/12f2e6bea736d1a5.gif)
+![demo](https://s3.bmp.ovh/imgs/2025/07/11/f76e2e57b5a248af.gif)
 
 </div>
 <details >
