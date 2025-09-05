@@ -10,7 +10,7 @@
   &emsp;&emsp;[2. Integrate with API](#2-integrate-with-api)<br/>
   &emsp;&emsp;&emsp;&emsp;[Configure Initial State](#configure-initial-state)<br/>
   &emsp;&emsp;&emsp;&emsp;[Register Plugin](#register-plugin)<br/>
-  &emsp;&emsp;&emsp;&emsp;[Wrap text with  `$t` ](#wrap-text-with--$t)<br/>
+  &emsp;&emsp;&emsp;&emsp;[Wrap text with  `$t` ](#wrap-text-with--t)<br/>
   &emsp;&emsp;[3. Initialize Command Line Configuration File](#3-initialize-command-line-configuration-file)<br/>
   &emsp;&emsp;[4. Adjust  `i18nrc.ts`  Configuration](#4-adjust--i18nrcts--configuration)<br/>
   &emsp;&emsp;[5. Execute Translation Command](#5-execute-translation-command)<br/>
@@ -148,4 +148,4 @@ You can switch languages through  `$setI18n`
 
 
 ## 8. Demo
-Real code examples can refer to  [Live Demo](https://github.com/i18n-pro/vue2/tree/v2.0.0-alpha.1#live-demo)  in the  `README`  document
+Real code examples can refer to  [Live Demo](https://github.com/i18n-pro/vue2/tree/v2.0.0-alpha.3#live-demo)  in the  `README`  document

@@ -10,7 +10,7 @@
   &emsp;&emsp;[2. 接入 API](#2-接入-api)<br/>
   &emsp;&emsp;&emsp;&emsp;[配置初始状态](#配置初始状态)<br/>
   &emsp;&emsp;&emsp;&emsp;[注册插件](#注册插件)<br/>
-  &emsp;&emsp;&emsp;&emsp;[用 `$t` 包裹文案](#用-$t-包裹文案)<br/>
+  &emsp;&emsp;&emsp;&emsp;[用 `$t` 包裹文案](#用-t-包裹文案)<br/>
   &emsp;&emsp;[3. 初始化命令行配置文件](#3-初始化命令行配置文件)<br/>
   &emsp;&emsp;[4. 调整 `i18nrc.ts` 配置](#4-调整-i18nrcts-配置)<br/>
   &emsp;&emsp;[5. 执行翻译命令](#5-执行翻译命令)<br/>
@@ -148,4 +148,4 @@ export default createI18n({
 
 
 ## 8. Demo
-真实代码示例可参考 `README` 文档中的 [Live Demo](https://github.com/i18n-pro/vue2/blob/v2.0.0-alpha.1/README_zh-CN.md#live-demo) 
+真实代码示例可参考 `README` 文档中的 [Live Demo](https://github.com/i18n-pro/vue2/blob/v2.0.0-alpha.3/README_zh-CN.md#live-demo) 
