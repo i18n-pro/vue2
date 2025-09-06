@@ -74,7 +74,7 @@
     "vue": ">=2.0.0 <3.0.0"
   },
   "dependencies": {
-    "i18n-pro": "3.0.0-alpha.2",
+    "i18n-pro": "3.0.0",
     "vue": "2"
   },
   "lint-staged": {
